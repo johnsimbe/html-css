@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: rgba(133, 121, 121, 0.671);
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0px;
+            
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        nav{
+            background-color: rgb(112, 112, 112);
+            padding: 3px;
+            box-shadow: 1px 1px 1px black;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        h1{
+            box-shadow: inset 0px -4px 5px 1px black;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        article{
+            background-color: bisque;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(90, 16, 187);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 3px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>O meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Desporto Polica Tecnologia</p>
+            <article>
+                <h2>Origem do Taekwondo ITF</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, rerum voluptate nostrum commodi ipsum officiis laborum aut repellendus impedit quas repudiandae. Architecto perferendis modi quo nesciunt ipsa quidem maiores veniam.</p>
+            </article>
+
+        </section>
+        <section id="noticias">
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque expedita quis mollitia excepturi, enim aut consequatur eaque illo voluptatibus tenetur animi magni quae a corporis quisquam in optio error voluptatem.</p>
+                <aside>
+                    <p>
+                       Artigo Escrito por John Simbe
+                    </p>
+
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Developed by Johnafta&reg; 2022</p>
+    </footer>
+</body>
+</html>
